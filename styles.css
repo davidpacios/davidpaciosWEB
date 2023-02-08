@@ -1,0 +1,126 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:url(/home/davidpacios/megasync/davidpaciosWEB/src/JetBrainsMono-Bold),monospace;
+}
+
+
+/* NavBar */
+
+#navbar-dark .container-fluid{
+    padding-top: 5px;
+}
+
+/* Logo Right Side */
+#navbar-dark .container-fluid .navbar-brand{
+    color: aliceblue;
+    font-size: 25px;
+    padding-left: 30px;
+}
+
+/* Links Left Side */
+#navbar-dark .container-fluid #navbarNav{
+    padding-right: 30px;
+}
+
+#navbar-dark .container-fluid #navbarNav .nav-link{
+    color: aliceblue;
+    font-size: 20px;
+    margin: 10px;
+}
+
+/* Line Animation Button */
+/* #navbar-dark .container-fluid #navbarNav .nav-link a{ 
+    padding: 2px;
+}
+
+#navbar-dark .container-fluid #navbarNav .nav-link a:hover{ 
+    border-bottom: 2px solid aliceblue;
+} */
+
+.principal-container{
+    background:linear-gradient(rgba(5,7,12,0.4),rgba(5,7,12,0.4)), url(./img/background.jpeg) no-repeat center center fixed;
+    background-size: cover;
+    position:relative;
+    min-height: 100vh;
+    height: 850px;
+    width: 100%;
+
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-around;
+    color: aliceblue;
+
+}
+
+.principal-container .text-presentation{
+    text-align: center;
+}
+
+#USC-Logo{
+    height: 70px;
+    width: 100px;
+}
+
+.principal-container .social-links a{
+    color: aliceblue;
+    padding: 30px;
+    font-size: 50px;
+}
+
+.aboutMe-container{
+    background:linear-gradient(rgba(5,7,12,0.3),rgba(5,7,12,0.3)), url(./img/backgroundAboutMe.jpeg) no-repeat center center fixed;
+    background-size: cover;
+    position:relative;
+    min-height: 100vh;
+    height: 850px;
+    width: 100%;
+    color: black;
+}
+
+.aboutMe-container .aboutMe-title{
+    font-size: 35px;
+    text-align: center;
+    justify-content: start;
+    padding-top: 150px;
+
+}
+
+.aboutMe-container .aboutMe-content{
+    text-align: center;
+    justify-content: safe;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+
+.projetcs-container{
+    background:linear-gradient(rgba(5,7,12,0.7),rgba(5,7,12,0.7)),url(./img/projects-background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    position:relative;
+    min-height: 100vh;
+    height: 850px;
+    width: 100%;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.projetcs-container .projects-title{
+    font-size: 35px;
+    
+    padding-top: 150px;
+}
+
+.projetcs-container .projects-content{
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
